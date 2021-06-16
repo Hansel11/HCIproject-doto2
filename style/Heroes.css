@@ -1,0 +1,86 @@
+.main{
+    margin-left: 18px;
+    margin-right: 18px;
+    display: grid;
+    place-items: center;
+}
+.selection .title{
+    text-align: center;
+    text-shadow: 1px 1px 5px #fffce6;
+    font-size: 48px;
+}
+.selection .images{
+    display: flex;
+    justify-content: center;
+}
+.selection img{
+    width: 100px;
+    margin: 5px;
+    transition: 0.5s;
+}
+.selection img:hover{
+    filter: brightness(1.5);
+}
+.content{
+    margin-top: 20px;
+    width: 100%;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hero > * {
+    flex-basis: 50%;
+}
+.preview img{
+    width: 36vw;
+    min-width: 360px;
+    max-width: 540px;
+    float: right;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 800px) {
+    .description{
+        align-items: center;
+    }
+    .desc-title{
+        text-align: center;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.ability img{
+    width: 60px;
+    transition: 0.5s;
+}
+.ability img:hover{
+    filter: brightness(1.5);
+}
+.desc{
+    width: 36vw;
+    min-width: 320px;
+    text-align: justify;
+}
+.desc-title{
+    font-size: 36px;
+    text-shadow:1px 1px 2px #fffce6;
+}
+.hero-desc{
+    font-size: 24px;
+    margin-bottom: -8px;            
+}
+#role1{
+    color: greenyellow
+}
+#role2{
+    color: red;
+}
+#role3{
+    color: lightskyblue
+}

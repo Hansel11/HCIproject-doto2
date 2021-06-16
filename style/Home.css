@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: min-content;
+}
+.slider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.switch img{
+    margin:-18px;
+    width: 36px;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.5s;            
+}
+.switch img:hover{              
+    box-shadow: 1px 1px 10px #fffce6;
+}
+
+.images{
+    width: 60vw;
+    overflow: hidden;
+}
+.image{
+    display: block;
+    width: 320vw;
+    margin-left: 0px;
+}
+.image img{
+    float: left;
+    width: 60vw;
+}

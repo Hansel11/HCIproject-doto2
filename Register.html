@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doto 2</title>
+    <link rel="stylesheet" href="./style/Style.css">
+    <link rel="stylesheet" href="./style/Register.css">
+    <link rel="icon" href="./assets/logo.png">
+    <script src="./script/jquery-3.6.0.js"></script>
+</head>
+<body>
+    <header>
+        <!-- 2440040690 - Hansel -->
+        <script src="./script/Header.js"></script>
+    </header>
+    <div class="main">
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name">
+            <label for="email">Email</label>
+            <input type="text" id="email">
+            <label for="pass">Password</label>
+            <input type="password" id="pass">
+            <label for="confirm">Confirm Password</label>
+            <input type="password" id="confirm">
+            <label for="dob">Birth date</label>
+            <input type="date" id="dob">
+            <label for="gender">Gender</label>
+            <div>    
+                <input type="radio" class="gender" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" class="gender" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+            </div>
+            <label for="region">Region</label>
+            <select id="region">
+                <option value="" selected disabled hidden>Select Region</option>
+                <option value="na">North America</option>
+                <option value="eu">Europe</option>
+                <option value="sea">SE Asia</option>
+                <option value="wt">West Taiwan</option>
+            </select>
+              
+            <input id="submit" type="submit">
+        </form>
+    </div>
+    <footer>
+        Copyright &copy 2021 by Volvo | Web Design by Hansel
+    </footer>
+</body>
+</html>
+<script src="./script/Register.js"></script>

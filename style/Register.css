@@ -1,0 +1,49 @@
+form{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label, #submit{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+input:not(.gender, #submit), select{
+    font-size: 20px;
+    font-family: 'Berlin Sans FB';
+    text-align: center;
+    border: none;
+    background-color: #3c3c3c;
+    border-bottom: 3px solid white;
+    color: white;
+    height: 24px;
+    width: 25%;
+    min-width: 200px;
+}
+input[type=radio] {
+    border: 0px;
+    height: 1.5em;
+    width: 1.5em;
+}
+input:focus{
+    outline: none;
+}
+#submit{
+    margin-top: 36px;
+    border: 0;
+    padding: 10px 30px 10px 30px;
+    background-color: #c42424;
+    color: wheat;
+    text-decoration: none;
+    font-family: 'Berlin Sans FB';
+    font-size: 24px;
+    font-weight: normal;
+    transition: 0.5s;
+}
+#submit:hover{
+    background-color: #f12424;
+    box-shadow: 1px 1px 12px #fffce6;;
+}
+::-webkit-calendar-picker-indicator, ::-ms-reveal{
+    filter: invert(1);
+}

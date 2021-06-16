@@ -1,0 +1,22 @@
+.main img{
+    width: 54vw;
+    min-width: 320px;
+    max-width: 720px;
+}
+.mechanic{
+    display: grid;
+    place-items: center;
+    width: 54vw;
+    min-width: 320px;
+    max-width: 720px;
+    margin-top: 32px;
+}
+.main{
+    margin-top: 0;
+    display: grid;
+    place-items: center;
+}
+.title{
+    text-align: center;
+    padding: 8px;
+}
